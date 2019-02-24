@@ -1,15 +1,23 @@
 package instruments;
 
-public abstract class Instrument {
+import interfaces.IPlay;
 
+public abstract class Instrument implements IPlay {
+
+    private String instrumentName;
     private String family;
     private double boughtPrice;
     private double sellPrice;
 
-    public Instrument(String family, double boughtPrice, double sellPrice) {
+    public Instrument(String instrumentName, String family, double boughtPrice, double sellPrice) {
+        this.instrumentName = instrumentName;
         this.family = family;
         this.boughtPrice = boughtPrice;
         this.sellPrice = sellPrice;
+    }
+
+    public String getInstrumentName() {
+        return instrumentName;
     }
 
     public String getFamily() {
@@ -26,6 +34,10 @@ public abstract class Instrument {
 
     public void setSellPrice(double sellPrice) {
         this.sellPrice = sellPrice;
+    }
+
+    public String instrumentSoundMsg(){
+        return "The sound this " + this.instrumentName + " makes is ";
     }
 
 }
