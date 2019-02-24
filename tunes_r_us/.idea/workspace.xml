@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46204d57-6a81-4270-b159-c57e111b55a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/instruments/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/instruments/Instrument.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/instrumentsTests/DrumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/instrumentsTests/DrumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/instrumentsTests/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/instrumentsTests/GuitarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Shop.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Drum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Drum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ISell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ISell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/instrumentsTests/DrumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instrumentsTests/DrumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/instrumentsTests/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/instrumentsTests/GuitarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,12 +41,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="2719" />
+          <entry key="java" value="3079" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2719" />
+          <entry key="JAVA" value="3079" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -66,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="230">
+              <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -75,24 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/e27_classnotes/week_11/day_2/homework/homework_solution/src/main/java/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-145" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/e27_classnotes/week_11/day_2/homework/homework_solution/src/test/java/TestLibrary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="260">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -118,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Guitar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state relative-caret-position="23">
               <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
@@ -127,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/instrumentsTests/GuitarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="83">
+              <caret line="14" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -485,9 +460,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="109" />
+    <option name="y" value="26" />
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="654" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -568,7 +544,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551018300882" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551019470471" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -670,18 +646,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShopTest_shopHasName - 2019.02.24 at 13h 20m 11s.xml">
-      <configuration name="ShopTest.shopHasName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest_shopHasName - 2019.02.24 at 13h 20m 32s.xml">
-      <configuration name="ShopTest.shopHasName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest_shopHasName - 2019.02.24 at 13h 21m 04s.xml">
-      <configuration name="ShopTest.shopHasName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopTest_shopHasName - 2019.02.24 at 13h 55m 43s.xml">
-      <configuration name="ShopTest.shopHasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShopTest - 2019.02.24 at 13h 56m 00s.xml">
       <configuration name="ShopTest" configurationId="JUnit" />
     </history-entry>
@@ -700,9 +664,21 @@
     <history-entry file="ShopTest - 2019.02.24 at 14h 13m 06s.xml">
       <configuration name="ShopTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShopTest - 2019.02.24 at 14h 22m 46s.xml">
+      <configuration name="ShopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopTest - 2019.02.24 at 14h 24m 29s.xml">
+      <configuration name="ShopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopTest - 2019.02.24 at 14h 28m 19s.xml">
+      <configuration name="ShopTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopTest - 2019.02.24 at 14h 33m 56s.xml">
+      <configuration name="ShopTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="729" extended-state="0" />
+    <frame x="158" y="48" width="1280" height="654" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -715,11 +691,11 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.32923076" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3206687" />
+      <window_info active="true" anchor="bottom" id="Messages" order="3" visible="true" weight="0.31903946" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.2781155" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.31389365" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3685015" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -746,31 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Guitar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/instrumentsTests/GuitarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ISell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -788,9 +743,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/e27_classnotes/week_11/day_2/homework/homework_solution/src/main/java/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Guitar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145" />
+        <state relative-caret-position="23">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/instrumentsTests/GuitarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/e27_classnotes/week_11/day_2/homework/homework_solution/src/test/java/TestLibrary.java">
@@ -800,17 +764,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/e27_classnotes/week_11/day_2/homework/homework_solution/src/main/java/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/instruments/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="260">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="230">
+          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>

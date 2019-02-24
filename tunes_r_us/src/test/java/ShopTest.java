@@ -31,8 +31,24 @@ public class ShopTest {
 
     @Test
     public void canAddToStock(){
-        shop.addDrum(drum);
-        shop.addDrum(guitar);
+        shop.addInstrument(drum);
+        shop.addInstrument(guitar);
         assertEquals(2, shop.countStock());
+    }
+
+    @Test
+    public void canRemoveFromStock(){
+        shop.addInstrument(drum);
+        shop.addInstrument(guitar);
+        assertEquals(2, shop.countStock());
+        shop.removeInstrument(guitar);
+        assertEquals(1, shop.countStock());
+    }
+
+    @Test
+    public void canCalculateProjectedGrossProfit(){
+        shop.addInstrument(drum);
+        shop.addInstrument(guitar);
+        assertEquals(130, shop.profit(), 0.00);
     }
 }
