@@ -2,6 +2,7 @@ import instruments.Drum;
 import instruments.Guitar;
 import org.junit.Before;
 import org.junit.Test;
+import otherItems.DrumStickSet;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,13 +11,14 @@ public class ShopTest {
     Shop shop;
     Drum drum;
     Guitar guitar;
+    DrumStickSet drumStickSet;
 
     @Before
     public void before(){
         shop = new Shop();
         drum = new Drum("Drum","Percussion","Bass", 80, 160);
         guitar = new Guitar("Guitar","String", "Electric",50, 100);
-
+        drumStickSet = new DrumStickSet("Drum Stick Set", 5.50, 10);
     }
 
     @Test
@@ -31,24 +33,27 @@ public class ShopTest {
 
     @Test
     public void canAddToStock(){
-        shop.addInstrument(drum);
-        shop.addInstrument(guitar);
-        assertEquals(2, shop.countStock());
+        shop.addItem(drum);
+        shop.addItem(guitar);
+        shop.addItem(drumStickSet);
+        assertEquals(3, shop.countStock());
     }
 
     @Test
     public void canRemoveFromStock(){
-        shop.addInstrument(drum);
-        shop.addInstrument(guitar);
-        assertEquals(2, shop.countStock());
-        shop.removeInstrument(guitar);
+        shop.addItem(drum);
+        shop.addItem(guitar);
+        shop.addItem(drumStickSet);
+        assertEquals(3, shop.countStock());
+        shop.removeItem(guitar);
+        shop.removeItem(drumStickSet);
         assertEquals(1, shop.countStock());
     }
 
     @Test
     public void canCalculateProjectedGrossProfit(){
-        shop.addInstrument(drum);
-        shop.addInstrument(guitar);
+        shop.addItem(drum);
+        shop.addItem(guitar);
         assertEquals(130, shop.grossProfitProjected(), 0.00);
     }
 }

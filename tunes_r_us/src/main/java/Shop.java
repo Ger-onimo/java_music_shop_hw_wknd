@@ -1,4 +1,3 @@
-import instruments.Instrument;
 import interfaces.ISell;
 
 import java.util.ArrayList;
@@ -6,7 +5,9 @@ import java.util.ArrayList;
 public class Shop {
 
     private String name;
-    private ArrayList<Instrument> stock;
+    private ArrayList<ISell> stock;
+
+
 
     public Shop() {
         this.name = "Tunes R Us";
@@ -14,30 +15,27 @@ public class Shop {
     }
 
     public String getName() {
-        System.out.println(name);
        return name;
 
     }
 
     public int countStock() {
-        System.out.println(stock);
         return this.stock.size();
     }
 
-    public void addInstrument(Instrument forSale){
+    public void addItem(ISell forSale){
         this.stock.add(forSale);
     }
 
-    public void removeInstrument(Instrument notForSale){
+    public void removeItem(ISell notForSale){
         this.stock.remove(notForSale);
     }
 
     public double grossProfitProjected(){
         double totalProfit = 0;
-        for(Instrument forSale : this.stock){
+        for(ISell forSale : this.stock){
            totalProfit += forSale.calculateMarkUp();
-            System.out.println(totalProfit);
-
+//           System.out.println(totalProfit);
         }
         return totalProfit;
     }
