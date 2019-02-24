@@ -35,7 +35,7 @@ public class Shop {
         double totalProfit = 0;
         for(ISell forSale : this.stock){
            totalProfit += forSale.calculateMarkUp();
-//           System.out.println(totalProfit);
+          System.out.println(totalProfit);
         }
         return totalProfit;
     }

@@ -3,6 +3,7 @@ import instruments.Guitar;
 import org.junit.Before;
 import org.junit.Test;
 import otherItems.DrumStickSet;
+import otherItems.Plectrum;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,6 +13,7 @@ public class ShopTest {
     Drum drum;
     Guitar guitar;
     DrumStickSet drumStickSet;
+    Plectrum plectrum;
 
     @Before
     public void before(){
@@ -19,6 +21,7 @@ public class ShopTest {
         drum = new Drum("Drum","Percussion","Bass", 80, 160);
         guitar = new Guitar("Guitar","String", "Electric",50, 100);
         drumStickSet = new DrumStickSet("Drum Stick Set", 5.50, 10);
+        plectrum = new Plectrum("Plectrum", 0.75, 1.25);
     }
 
     @Test
@@ -54,6 +57,8 @@ public class ShopTest {
     public void canCalculateProjectedGrossProfit(){
         shop.addItem(drum);
         shop.addItem(guitar);
-        assertEquals(130, shop.grossProfitProjected(), 0.00);
+        shop.addItem(drumStickSet);
+        shop.addItem(plectrum);
+        assertEquals(135, shop.grossProfitProjected(), 0.00);
     }
 }
