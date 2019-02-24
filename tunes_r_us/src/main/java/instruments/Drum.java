@@ -1,10 +1,10 @@
 package instruments;
 
-public class Guitar extends Instrument{
+public class Drum extends Instrument{
 
-    private String type;
+    private String ;
 
-    public Guitar(String instrumentName, String family, double boughtPrice, double sellPrice, String type) {
+    public Drum(String instrumentName, String family, double boughtPrice, double sellPrice, String type) {
         super(instrumentName, family, boughtPrice, sellPrice);
         this.type = type;
 
@@ -16,13 +16,13 @@ public class Guitar extends Instrument{
 
     @Override
     public String soundPlayed(){
-        return "Struummmmm";
+        return "Doof Doof";
     }
-// Overrides from IPlay Interface
-
+    //
     @Override
     public String instrumentSoundMsg(){
         return super.instrumentSoundMsg() + soundPlayed();
     }
-// directly inherits from Inheritance class
+// Inherits from Inheritance class
 }
+
