@@ -12,7 +12,7 @@ public class DrumTest {
 
     @Before
     public void before(){
-        drum = new Drum("Drum","Percussion", 80, 160, "Bass");
+        drum = new Drum("Drum","Percussion","Bass", 80, 160);
     }
 
     @Test
@@ -26,6 +26,11 @@ public class DrumTest {
     }
 
     @Test
+    public void hasTypeOfGuitar(){
+        assertEquals("Bass", drum.getType());
+    }
+
+    @Test
     public void hasPriceBoughtFor(){
         assertEquals(80, drum.getBoughtPrice(),0.00);
     }
@@ -33,11 +38,6 @@ public class DrumTest {
     @Test
     public void hasPriceWillSellFor(){
         assertEquals(160, drum.getSellPrice(), 0.00);
-    }
-
-    @Test
-    public void hasTypeOfGuitar(){
-        assertEquals("Bass", drum.getType());
     }
 
     @Test

@@ -2,17 +2,17 @@ package instruments;
 
 public class Drum extends Instrument{
 
-    private String ;
+//    private String ;
 
-    public Drum(String instrumentName, String family, double boughtPrice, double sellPrice, String type) {
-        super(instrumentName, family, boughtPrice, sellPrice);
-        this.type = type;
+    public Drum(String instrumentName, String family, String type, double boughtPrice, double sellPrice) {
+        super(instrumentName, family, type, boughtPrice, sellPrice);
+//        this.type = type;
 
     }
 
-    public String getType() {
-        return type;
-    }
+//    public String getType() {
+//        return type;
+//    }
 
     @Override
     public String soundPlayed(){

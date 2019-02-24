@@ -6,12 +6,14 @@ public abstract class Instrument implements IPlay {
 
     private String instrumentName;
     private String family;
+    private String type;
     private double boughtPrice;
     private double sellPrice;
 
-    public Instrument(String instrumentName, String family, double boughtPrice, double sellPrice) {
+    public Instrument(String instrumentName, String family, String type, double boughtPrice, double sellPrice) {
         this.instrumentName = instrumentName;
         this.family = family;
+        this.type = type;
         this.boughtPrice = boughtPrice;
         this.sellPrice = sellPrice;
     }
@@ -22,6 +24,10 @@ public abstract class Instrument implements IPlay {
 
     public String getFamily() {
         return family;
+    }
+
+    public String getType() {
+        return type;
     }
 
     public double getBoughtPrice() {
