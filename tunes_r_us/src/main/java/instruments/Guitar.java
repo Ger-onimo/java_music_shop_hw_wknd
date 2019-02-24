@@ -19,4 +19,5 @@ public class Guitar extends Instrument{
         return super.instrumentSoundMsg() + soundPlayed();
     }
 // directly inherits from Inheritance class
+
 }

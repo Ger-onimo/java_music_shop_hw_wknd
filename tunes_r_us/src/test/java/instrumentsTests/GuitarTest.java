@@ -56,4 +56,9 @@ public class GuitarTest {
     public void instrumentSoundMsg(){
         assertEquals("The sound this Guitar makes is Struummmmm", guitar.instrumentSoundMsg());
     }
+
+    @Test
+    public void hasMarkupAmount(){
+        assertEquals(50, guitar.calculateMarkUp(), 0.00);
+    }
 }

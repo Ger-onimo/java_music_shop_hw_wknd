@@ -55,5 +55,11 @@ public class DrumTest {
     public void instrumentSoundMsg(){
         assertEquals("The sound this Drum makes is Doof Doof", drum.instrumentSoundMsg());
     }
+
+    @Test
+    public void hasMarkupAmount(){
+        assertEquals(80, drum.calculateMarkUp(), 0.00);
+    }
+
 }
 
