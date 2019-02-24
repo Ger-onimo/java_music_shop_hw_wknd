@@ -19,7 +19,7 @@ public class ShopTest {
     public void before(){
         shop = new Shop();
         drum = new Drum("Drum","Percussion","Bass", 80, 160);
-        guitar = new Guitar("Guitar","String", "Electric",50, 100);
+        guitar = new Guitar("Guitar","String", "Electric",50, 100,6);
         drumStickSet = new DrumStickSet("Drum Stick Set", 5.50, 10);
         plectrum = new Plectrum("Plectrum", 0.75, 1.25);
     }

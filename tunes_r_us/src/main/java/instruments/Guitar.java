@@ -2,10 +2,16 @@ package instruments;
 
 public class Guitar extends Instrument{
 
+    private int numberOfStrings;
 
-    public Guitar(String instrumentName, String family, String type, double boughtPrice, double sellPrice) {
+    public Guitar(String instrumentName, String family, String type, double boughtPrice, double sellPrice, int numberOfStrings) {
         super(instrumentName, family, type, boughtPrice, sellPrice);
+        this.numberOfStrings = numberOfStrings;
 
+    }
+
+    public int getNumberOfStrings() {
+        return numberOfStrings;
     }
 
     @Override

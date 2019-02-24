@@ -12,7 +12,7 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar("Guitar","String", "Electric",50, 100);
+        guitar = new Guitar("Guitar","String", "Electric",50, 100, 6);
     }
 
     @Test
@@ -40,6 +40,10 @@ public class GuitarTest {
         assertEquals(100, guitar.getSellPrice(), 0.00);
     }
 
+    @Test
+    public void hasNumberOfStrings(){
+        assertEquals(6, guitar.getNumberOfStrings());
+    }
 
     @Test
     public void canChangeSellPrice(){
