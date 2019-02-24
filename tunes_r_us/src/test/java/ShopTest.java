@@ -49,6 +49,6 @@ public class ShopTest {
     public void canCalculateProjectedGrossProfit(){
         shop.addInstrument(drum);
         shop.addInstrument(guitar);
-        assertEquals(130, shop.profit(), 0.00);
+        assertEquals(130, shop.grossProfitProjected(), 0.00);
     }
 }

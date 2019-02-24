@@ -28,14 +28,16 @@ public class Shop {
         this.stock.add(forSale);
     }
 
-    public void removeInstrument(Instrument forSale){
-        this.stock.remove(forSale);
+    public void removeInstrument(Instrument notForSale){
+        this.stock.remove(notForSale);
     }
 
-    public double profit(){
+    public double grossProfitProjected(){
         double totalProfit = 0;
         for(Instrument forSale : this.stock){
            totalProfit += forSale.calculateMarkUp();
+            System.out.println(totalProfit);
+
         }
         return totalProfit;
     }
