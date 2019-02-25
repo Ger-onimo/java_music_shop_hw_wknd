@@ -1,3 +1,5 @@
+package shop;
+
 import interfaces.ISell;
 
 import java.util.ArrayList;

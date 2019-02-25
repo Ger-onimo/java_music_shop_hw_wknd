@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import otherItems.DrumStickSet;
 import otherItems.Plectrum;
+import shop.Shop;
 
 import static org.junit.Assert.assertEquals;
 

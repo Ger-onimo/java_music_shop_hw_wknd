@@ -2,14 +2,15 @@ package instruments;
 
 import interfaces.IPlay;
 import interfaces.ISell;
+import shop.Shop;
 
-public abstract class Instrument implements IPlay, ISell {
+public abstract class Instrument extends Shop implements IPlay, ISell {
 
     private String instrumentName;
     private String family;
     private String type;
-    private double boughtPrice;
-    private double sellPrice;
+    private double boughtPrice; // refactor - move to Shop
+    private double sellPrice; // refactor - move to Shop
 
     public Instrument(String instrumentName, String family, String type, double boughtPrice, double sellPrice) {
         this.instrumentName = instrumentName;
